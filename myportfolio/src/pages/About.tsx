@@ -1,5 +1,7 @@
+import AnimatedBg from "../components/AnimatedBg";
 export default function About() {
   return (
+    <AnimatedBg>
     <div className="about-container">
       <h1>Over Mij</h1>
       
@@ -31,5 +33,6 @@ export default function About() {
         </p>
       </section>
     </div>
+    </AnimatedBg>
   );
 }

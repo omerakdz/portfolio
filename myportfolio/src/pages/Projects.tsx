@@ -1,5 +1,7 @@
+import AnimatedBg from "../components/AnimatedBg";
 export default function Projects() {
   return (
+    <AnimatedBg>
     <div className="projects-container">
       <h1>Projecten</h1>
 
@@ -33,5 +35,6 @@ export default function Projects() {
         </div>
       </section>
     </div>
+    </AnimatedBg>
   );
 }

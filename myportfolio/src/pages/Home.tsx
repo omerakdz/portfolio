@@ -1,7 +1,9 @@
 import { Github, Linkedin } from "lucide-react";
+import AnimatedBg from "../components/AnimatedBg";
 
 export default function Home() {
   return (
+    <AnimatedBg>
     <div className="home-container">
       <h1>Hallo, ik ben Ömer</h1>
       <p>
@@ -17,5 +19,6 @@ export default function Home() {
         </a>
       </div>
     </div>
+    </AnimatedBg>
   );
 }

@@ -1,5 +1,7 @@
+import AnimatedBg from "../components/AnimatedBg";
 export default function Contact() {
   return (
+    <AnimatedBg>
     <div className="contact-container">
       <h1>Contact</h1>
       <form className="contact-form">
@@ -11,5 +13,6 @@ export default function Contact() {
       </form>
       <p className="contact-email">📧 omerakdeniz1208@gmail.com</p>
     </div>
+    </AnimatedBg>
   );
 }

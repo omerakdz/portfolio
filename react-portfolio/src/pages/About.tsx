@@ -24,7 +24,7 @@ const About = () => {
 
                 <article>
                     <h2>mijn doelen</h2>
-                    <p>Mijn doelen zijn om een full stack developer te worden en ervaring opdoen met moderne frameworks. Ik wil me ook verdiepen in AI. </p>
+                    <p>Mijn doel is om mezelf te ontwikkelen in de IT wereld. Of het nu web/software development , testing of database beheer is: Ik ben klaar en gemotiveerd om ervaring op te doen en mijn vaardigehden en kennis verder te ontwikkelen. </p>
                 </article>
 
             </section>

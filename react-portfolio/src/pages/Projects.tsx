@@ -1,7 +1,7 @@
 import styles from "../App.module.css";
 import type { Project } from "../types";
 import { projects } from "../projects";
-import githubIcon from "../assets/github.png";
+import githubIcon from "../assets/github2.png";
 
 const Projects = () => {
   return (

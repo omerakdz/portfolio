@@ -101,6 +101,7 @@
 .githubImg {
   height: 40px;
   width: 40px;
+  border-radius: 100px;
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -169,6 +170,30 @@
 .contactForm button:hover {
   background-color: #4ac1ff;
   transform: scale(1.05);
+}
+
+.succes {
+  background-color: rgba(0, 128, 0, 0.1); 
+  border: 1px solid #008000; 
+  color: #008000; 
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-weight: 500;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.1); 
+  border: 1px solid #ff0000;
+  color: #ff0000; 
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-weight: 500;
+  text-align: center;
+  transition: opacity 0.3s ease;
 }
 
 @media (max-width: 768px) {

@@ -36,7 +36,7 @@ function App() {
         }
       ]
     }
-  ], {basename: "/portfolio"});
+  ]);
 
   return (
     <div>

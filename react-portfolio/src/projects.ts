@@ -29,7 +29,7 @@ export const projects: Project[] = [
       { name: "C#", color: "#178600" },
       { name: ".NET", color: "#512bd4" },
     ],
-    github: "#",
+    github: "https://github.com/omerakdz/MiniTextAdventure",
   },
   {
     title: "School bib",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
       { name: "C#", color: "#178600" },
       { name: ".NET", color: "#512bd4" },
     ],
-    github: "https://github.com/jouwgebruikersnaam/school-bib",
+    github: "https://github.com/omerakdz/schoolbib",
   },
   {
     title: "Webshop",

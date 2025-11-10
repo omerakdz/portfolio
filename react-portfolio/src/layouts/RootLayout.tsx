@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import styles from "./RootLayout.module.css";
 import img from "../assets/Foto.png"
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import {ThemeContext} from "../providers/ThemeProvider"
 import BackgroundParticles from "./BackgroundParticles";
 

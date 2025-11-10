@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import styles from './App.module.css'
 import ThemeProvider from './providers/ThemeProvider'
-import { Outlet, createBrowserRouter, RouterProvider, Route, NavLink } from "react-router-dom";
+import {createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from './layouts/RootLayout';
 import Home from './pages/Home';
 import About from './pages/About'; 

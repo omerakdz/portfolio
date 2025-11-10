@@ -24,7 +24,7 @@ export const projects: Project[] = [
   },
   {
         title: "Mini Text Adventure Game",
-    description: "Een mini game gemaakt in C# waarin je keuzes maakt om verder te komen in het verhaal.",
+    description: "Een mini game gemaakt met een groepje in C# waarin je keuzes maakt om verder te komen in het verhaal.",
     languages: [
       { name: "C#", color: "#178600" },
       { name: ".NET", color: "#512bd4" },

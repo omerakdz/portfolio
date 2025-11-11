@@ -121,7 +121,6 @@
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  /* Tekst kleur wordt nu bepaald door de parent (.content.light/.dark) */
   color: inherit;
 }
 
@@ -210,58 +209,22 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+   .aboutContainer article{
+      width: 90%;
+      text-align: left;
+  }
 
   /*contact*/
    .contactContainer{
     width: 70%;
    }
+
+   /*project*/
+   .projectsContainer {
+    width: 90%;
+   }
 }
 
-  /* Light theme overrides when main content has .content.light */
-  .content.light {
-    --bg-color-light: #f6f8fb; /* soft off-white */
-    --card-bg-light: #f3f7fb; /* very pale blue/white for cards */
-    --input-bg-light: #ffffff;
-    --accent-light: #2b6fa3; /* softer accent */
-    --accent-border-light: #c7e6fb; /* pale border */
-    --text-dark: #0b1220; /* main text color on light */
-    background-color: var(--bg-color-light);
-    color: var(--text-dark);
-  }
 
-  .content.light .aboutContainer article,
-  .content.light .projectsContainer section {
-    background-color: var(--card-bg-light);
-    border-color: var(--accent-border-light);
-    color: var(--text-dark);
-  }
 
-  .content.light .projectsContainer article p{
-    border-color: var(--accent-light);
-    color: var(--text-dark);
-    background-color: transparent;
-  }
-
-  .content.light .contactForm input,
-  .content.light .contactForm textarea {
-    background-color: var(--input-bg-light);
-    color: var(--text-dark);
-    border: 2px solid var(--accent-border-light);
-  }
-
-  .content.light .contactForm input:focus,
-  .content.light .contactForm textarea:focus {
-    border-color: var(--accent-light);
-  }
-
-  .content.light .contactForm button {
-    background-color: var(--accent-light);
-    color: white;
-  }
-
-  .content.light .githubImg {
-    filter: none; /* show normal icon in light */
-  }
-
-  /* make sure particle canvas colors are compatible in light mode (kept in component) */
-
+ 
